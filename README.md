@@ -67,19 +67,11 @@ This project builds an end-to-end machine learning pipeline that:
 
 ## 📁 Project Structure
 
-nfl-value-engine/
-├── data/
-│   └── model_df.csv          # Cleaned master dataset
-├── notebooks/
-│   ├── 01_data_collection.ipynb
-│   ├── 02_exploratory_data_analysis.ipynb
-│   └── 03_ml_model.ipynb
-├── models/
-│   ├── xgboost_model.pkl     # Trained XGBoost model
-│   └── label_encoder.pkl     # Position encoder
-├── app/
-│   └── app.py                # Streamlit web app
-└── requirements.txt
+- **data/** — Cleaned master dataset (model_df.csv)
+- **notebooks/** — Data collection, EDA, and ML model notebooks
+- **models/** — Trained XGBoost model and label encoder
+- **app/** — Streamlit web app (app.py)
+- **requirements.txt** — Python dependencies
 
 ---
 
