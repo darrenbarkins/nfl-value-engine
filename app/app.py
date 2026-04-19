@@ -11,20 +11,14 @@ st.set_page_config(page_title="NFL Player Value Engine", page_icon="🏈", layou
 # Load data and model
 @st.cache_data
 def load_data():
-    return pd.read_csv(
-        "/Users/darrenbarkins/NFL PVP/nfl-value-engine/data/model_df.csv"
-    )
+    return pd.read_csv("data/model_df.csv")
 
 
 @st.cache_resource
 def load_model():
-    with open(
-        "/Users/darrenbarkins/NFL PVP/nfl-value-engine/models/xgboost_model.pkl", "rb"
-    ) as f:
+    with open("models/xgboost_model.pkl", "rb") as f:
         model = pickle.load(f)
-    with open(
-        "/Users/darrenbarkins/NFL PVP/nfl-value-engine/models/label_encoder.pkl", "rb"
-    ) as f:
+    with open("models/label_encoder.pkl", "rb") as f:
         le = pickle.load(f)
     return model, le
 
