@@ -31,8 +31,8 @@ This project builds an end-to-end machine learning pipeline that:
 ## 🔍 Key Findings
 
 - **Passing TDs and passing yards** drive 48% of salary prediction power
-- **Russell Wilson** was flagged as the most overpaid player (+$36M above predicted value)
-- **Dak Prescott** was flagged as the most underpaid player (-$28M below predicted value)
+- **Justin Herbert** was flagged as the most overpaid player relative to predicted performance value
+- **Brock Osweiler** was flagged as the most underpaid player relative to predicted performance value
 - **Age vs AAV correlation:** 0.340 — moderate relationship
 - **Fantasy points vs AAV correlation:** 0.578 — stronger predictor than age alone
 - QBs earn nearly **3x more** than the next highest paid position
